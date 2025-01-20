@@ -32,17 +32,6 @@
 
 }
 
-.background {
-    background-image: url('C:\Users\reactProject\my-personal-dairy\src\my-presonal-dairy\store\img\BackgroundIMG.avif');
-    background-size: cover;
-    background-position: center;
-    height: 100vh; /* Make sure the background takes up the full height of the screen */
-    display: flex;
-    justify-content: center;
-    align-items: flex-start; /* Align content to the top */
-    flex-direction: column;
-        
-      }
       .footerSection {
         display: flex;
         

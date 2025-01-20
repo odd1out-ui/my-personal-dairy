@@ -1,6 +1,4 @@
 import React,{ useEffect, useState,createContext,useRef } from "react";
-import { useNavigate } from "react-router-dom";
-import { database } from "./store/DairyDataBase";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import App  from '../App'
 import Page from './Page'
@@ -11,8 +9,8 @@ const OpenDairy=()=>{
     
   
     let [date,setDate]=useState('')
-    const [pageNO, setPageNO] = useState();  // To store fetched data
-      const [error, setError] = useState(null); // To store any error message
+    const [pageNO, setPageNO] = useState();  
+      const [error, setError] = useState(null); 
     const[appendDB,setAppendDB]=useState('')
     const refTextArea=useRef("")
     const refPageNo=useRef('')
@@ -39,7 +37,7 @@ const OpenDairy=()=>{
             .then((data) =>setPageNO(data[0]["COUNT(pageno)"]+1))
             .catch((error) => {
               console.error('Error fetching data:', error);
-              setError(error.message);  // Set the error message in state
+              setError(error.message);  
             });
           
             
@@ -104,7 +102,7 @@ const OpenDairy=()=>{
     
     return(
       <div>
-        <div className="background ">
+        <div >
             
                 
             
