@@ -50,7 +50,7 @@
         margin-left: 25px;
         padding: 0px 10px;
         border:none;
-        font-family:'Sensation Light';
+        font-family:'Courier New', Courier, monospace;
         color:white;
         
         border:none;
@@ -69,13 +69,6 @@
 
     }
  
-    @font-face {
-        font-family: 'Sensation Light';  /* The name you want to use in CSS */
-        src: url('C:\Users\reactProject\my-personal-dairy\src\my-presonal-dairy\store\font\sansation.regular.ttf') format('truetype');  /* Adjust path if needed */
-        font-weight: normal;
-        font-style: normal;
-        color: white;
-    }
     
     .set{
         margin-top: 30px;
