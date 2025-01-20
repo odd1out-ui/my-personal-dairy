@@ -1,0 +1,119 @@
+.loginPage{
+    display: flex;
+    
+
+    
+}
+.loginform{
+    margin: 200px 400px 200px;
+    
+
+}
+.footer{
+    font-size: small;
+}
+.inputbox{
+
+    width: 500px;
+    
+}
+.write{
+    
+    margin-top: 10px; 
+    margin-left: 400px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 3px solid;
+    border-color: rgb(223, 93, 93);
+    border-radius: 8px;
+    width: 450px;
+    height: 1400px;
+
+
+}
+
+.background {
+    background-image: url('C:\Users\reactProject\my-personal-dairy\src\my-presonal-dairy\store\img\BackgroundIMG.avif');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Make sure the background takes up the full height of the screen */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align content to the top */
+    flex-direction: column;
+        
+      }
+      .footerSection {
+        display: flex;
+        
+    }
+    .labelstyle{
+        background-color: black ;
+        color:white;
+        width:30%;
+        display: inline-block;
+        margin-left: 10px;
+        text-align: center;
+    }
+    .textstyle{
+        width: 90%;
+        height: 80%;
+        margin-left: 25px;
+        padding: 0px 10px;
+        border:none;
+        font-family:'Sensation Light';
+        color:white;
+        
+        border:none;
+        background-color:rgb(223, 93, 93) ;
+        
+    }
+    .secondlabel{
+        width: 50%;
+        font-weight: small;
+        color:white;
+        text-align: centre;
+        background-color:rgb(223, 93, 93);
+        display:inline-block;
+        margin-left: 10px;
+
+
+    }
+ 
+    @font-face {
+        font-family: 'Sensation Light';  /* The name you want to use in CSS */
+        src: url('C:\Users\reactProject\my-personal-dairy\src\my-presonal-dairy\store\font\sansation.regular.ttf') format('truetype');  /* Adjust path if needed */
+        font-weight: normal;
+        font-style: normal;
+        color: white;
+    }
+    
+    .set{
+        margin-top: 30px;
+        margin-left: 400px;
+        
+    }
+    .searchpage{
+        display:flex;
+        width: 90%;
+        height: 80%;
+        margin-top: 100px;
+        margin-left: 100px;
+        padding: 0px 10px;
+        border:2px solid;
+        font-family:'Sensation Light';
+        color:white;
+        
+        border:none;
+        background-color:rgb(223, 93, 93) ;
+        
+       
+    }
+    
+    
+
+    
+     
+    
+    
+      
