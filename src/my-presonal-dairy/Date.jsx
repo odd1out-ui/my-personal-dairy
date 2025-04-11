@@ -5,6 +5,7 @@ import { useParams } from "react-router-dom";
 
 const Date=()=>{
     const {date}=useParams();
+    
     const[receiveddata,setReceivedData]=useState('')
     const [error, setError] = useState(null);
     
